@@ -28,6 +28,7 @@ source-repository head
 library
   exposed-modules:
       Lists.MyLast
+      Lists.MyButLast
   other-modules:
       Paths_ninetynine_haskell
   hs-source-dirs:
@@ -53,6 +54,7 @@ test-suite ninetynine-haskell-test
   main-is: Spec.hs
   other-modules:
       Lists.MyLastSpec
+      Lists.MyButLastSpec
       Paths_ninetynine_haskell
   hs-source-dirs:
       test
