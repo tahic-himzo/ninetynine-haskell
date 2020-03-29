@@ -15,7 +15,7 @@ spec = do
       myLast [1] `shouldBe` Just 1
 
     it "return Nothing if used with an empty list" $
-      myLast ([] :: [Int]) `shouldBe` (Nothing :: Maybe Int)
+      myLast ([] :: [Int]) `shouldBe` Nothing
 
   describe "Lists.MyLastNonEmpty" $ do
     it "returns the last element of a long NEL" $
