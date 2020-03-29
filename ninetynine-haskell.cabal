@@ -30,6 +30,8 @@ library
       Lists.MyLast
       Lists.MyButLast
       Lists.ElementAt
+      Lists.MyLength
+      Lists.ReverseList
   other-modules:
       Paths_ninetynine_haskell
   hs-source-dirs:
@@ -57,6 +59,8 @@ test-suite ninetynine-haskell-test
       Lists.MyLastSpec
       Lists.MyButLastSpec
       Lists.ElementAtSpec
+      Lists.MyLengthSpec
+      Lists.ReverseListSpec
       Paths_ninetynine_haskell
   hs-source-dirs:
       test
